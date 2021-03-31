@@ -1,0 +1,9 @@
+Description: Crude tool for gathering GYR Hub statisticso
+Author: Tim Tucker (tim@ttimtucker.com)
+
+Files in hub.zip:
+hub.sh: bash script that is run to initiate the data gathering
+status.txt: list of all possible client states
+sites.txt: list of site name, and the site number (used by GYR).  Various ways of obtaining the site numbers, including using Google chrome, going 
+	into "inspect", selecting "Network", opening desired page, and examining output
+*.curl: scripts called by the main hub.sh to navigate to specific HUB pages
